@@ -16,7 +16,8 @@ exec --no-startup-id picom
 exec --no-startup-id polybar
 
 # Set i3 background
-exec --no-startup-id nitrogen -restore
+# nitrogen --set-scaled ~/Pictures/treehouse.jpeg --save
+exec --no-startup-id nitrogen --restore
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
